@@ -24,21 +24,59 @@
 .header ul li a:hover {
     color:rgb(96, 252, 82);
 }
+
+.header-item__icon {
+    margin-top: 15px;
+}
+
+.header-item__dangnhap {
+    margin: 10px;
+}
+.header-item__dangnhap button{
+    border: 1px solid chartreuse;
+    border-radius: 20px;
+    color: chartreuse;
+    background-color: #fff;
+    padding: 7px;
+}
+.header-item__giohang {
+    margin-top: 10px;
+}
+
+.header-item__giohang button{
+    border: 1px solid chartreuse;
+    border-radius: 20px;
+    color: chartreuse;
+    background-color: #fff;
+    padding: 7px;
+}
 .container {
     display: flex;
+    width: 100%;
+    justify-content: center;
 }
-.container-img img {
-    width: 50%;
+
+.container-img {
+    margin-right: 20px;
 }
-.container-imgs img {
-    width: 50%;
+
+.container-imgs img{
+    width: 347px;
 }
-.container {
-    display: flex;
+
+.container img {
+    width: 700px;
+    border-radius: 20px;
 }
+
 .product {
     display: flex;
+    text-align: center;
 }
-.product-items {
+.product-items img {
+    width: 260px;
+    border-radius: 10px;
+}
+.product .product-items {
     width: 25%;
 }
