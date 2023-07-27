@@ -1,0 +1,44 @@
+
+.header {
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+.header ul li {
+    display: inline-flex;
+
+}
+.header ul li a {
+    text-decoration: none;
+    margin-right: 15px;
+    color: black;
+}
+
+.header ul {
+    margin: 25px 0;
+}
+.header img {
+    width: 100px;
+    height: auto;
+}
+.header ul li a:hover {
+    color:rgb(96, 252, 82);
+}
+.container {
+    display: flex;
+}
+.container-img img {
+    width: 50%;
+}
+.container-imgs img {
+    width: 50%;
+}
+.container {
+    display: flex;
+}
+.product {
+    display: flex;
+}
+.product-items {
+    width: 25%;
+}
