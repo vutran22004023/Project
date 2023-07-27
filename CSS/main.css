@@ -25,12 +25,8 @@
     color:rgb(96, 252, 82);
 }
 
-.header-item__icon {
-    margin-top: 15px;
-}
-
-.header-item__dangnhap {
-    margin: 10px;
+.header-item {
+    display: inline-flex;
 }
 .header-item__dangnhap button{
     border: 1px solid chartreuse;
@@ -38,9 +34,6 @@
     color: chartreuse;
     background-color: #fff;
     padding: 7px;
-}
-.header-item__giohang {
-    margin-top: 10px;
 }
 
 .header-item__giohang button{
